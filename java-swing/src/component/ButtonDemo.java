@@ -13,7 +13,7 @@ public class ButtonDemo extends JPanel implements ActionListener{
 	        ImageIcon middleButtonIcon = new ImageIcon("src/images/middle.gif");
 	        ImageIcon rightButtonIcon = new ImageIcon("src/images/left.gif");
 	 
-	        b1 = new JButton("가운데버튼 사용불가~", leftButtonIcon);
+	        b1 = new JButton("가운데버튼 사용불가", leftButtonIcon);
 	        b1.setVerticalTextPosition(AbstractButton.CENTER);
 	        b1.setHorizontalTextPosition(AbstractButton.LEADING); //aka LEFT, for left-to-right locales
 	        b1.setMnemonic(KeyEvent.VK_D);
